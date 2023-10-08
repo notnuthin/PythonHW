@@ -1,6 +1,7 @@
 def allcaps(function):
     def capitalize():
-        return function().upper()
+        result = function()
+        return result.upper()
     return capitalize
 
 

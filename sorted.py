@@ -1,12 +1,13 @@
 def sort_dictionary(d):
     if isinstance(d, dict)!=True:
-        print("input is not a dictionary")
-        return
+        raise TypeError("Variable provided is not a dictionary")
+    
     dictKeys = list(d.keys())
+    
     for i in range(1,len(dictKeys)):
         j=i-1
         current = dictKeys[i]
-        while j>=0 and current<dictKeys[j]:
+        while j>=0 and current>dictKeys[j]:
             dictKeys[j+1] = dictKeys[j]
             j=j-1
         dictKeys[j+1] = current
