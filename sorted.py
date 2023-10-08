@@ -20,6 +20,6 @@ def sort_dictionary(d):
 
     return returnList
 #print(sort_dictionary({ 'Tom' : (5464512, 24) , 'Sara' : (5446987, 32) , 'Mary' : (1557896, 20)} ))
-
+#print(sort_dictionary({ 'Fiora' : (5464512, 24) , 'Leonell' : (5446987, 32) , 'Meham' : (1557896, 20)} ))
 
     

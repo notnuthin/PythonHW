@@ -1,10 +1,10 @@
 def merge_list(list1, list2):
+    
+    
     if isinstance(list1, list)==False:
-        print("list1 not a list")
-        return
+        raise TypeError("First list is not a list")
     if isinstance(list2,list)==False:
-        print("list2 not a list")
-        return
+        raise TypeError("Second list is not a list")
     list1.extend(list2)
     
     for i in range (0,len(list1)-1):
