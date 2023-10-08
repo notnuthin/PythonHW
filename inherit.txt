@@ -1,0 +1,2 @@
+1. You would want to use inheritance to not have to rewrite code, like methods and members.
+2. It also allows you to quickly make changes to all child classes if you change the parent class.

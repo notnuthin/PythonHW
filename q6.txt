@@ -1,0 +1,3 @@
+The change does not apply after the function call.
+The change is kept after the function call.
+They differ because int is an immutable data type, but dictionary is mutable.
