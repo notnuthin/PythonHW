@@ -1,9 +1,9 @@
 def merge_list(list1, list2):
     
     
-    if isinstance(list1, list)==False:
+    if isinstance(list1, list[int])==False:
         raise TypeError("First list is not a list")
-    if isinstance(list2,list)==False:
+    if isinstance(list2,list[int])==False:
         raise TypeError("Second list is not a list")
     list1.extend(list2)
     

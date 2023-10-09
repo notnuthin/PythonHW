@@ -9,9 +9,8 @@ class Base:
 class Circle(Base):
   def __init__(self,x,y, size):
       super().__init__(x, y, size)
-      self.shape= "circle"
-  def shape(self):
-     return "This is a "+self.shape + "."
+  def shape():
+     return "This is a circle."
 
   def draw(self):
       return f"""
